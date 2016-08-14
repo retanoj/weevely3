@@ -1,3 +1,4 @@
+
 Weevely
 =======
 
@@ -29,3 +30,11 @@ The remote agent is a small PHP script which can extend its functionality over t
 Weevely also provides python API to develop your own module to implement internal audit, account enumerator, sensitive data scraper, network scanner, make the modules work as a HTTP or SQL client and do a whole lot of other cool stuff.
 
 > If you are a developer or a curious user and desire to contribute, you can to start reading the tutorial [Developing a new module ](https://github.com/epinna/weevely3/wiki/developing-a-new-module) and the [TODO list](https://github.com/epinna/weevely3/issues/1).
+
+
+
+> 如果你获得的木马是采用stegaref agent，且知道shared_key。
+>
+> 那么可直接修改`core/channels/stegaref/stegaref.py`中
+>
+> `self.shared_key = your_shared_key`
